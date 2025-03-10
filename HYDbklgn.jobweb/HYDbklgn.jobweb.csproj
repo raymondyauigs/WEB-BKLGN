@@ -267,6 +267,7 @@
     <Content Include="Content\alertify.default.css" />
     <Content Include="Content\charts.min.css" />
     <Content Include="Content\home.css" />
+    <Content Include="Content\images\meeting_room.jpg" />
     <Content Include="Content\images\ms-excel.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -274,6 +275,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\images\word.png" />
+    <Content Include="Content\images\yellow_car.jpg" />
     <Content Include="Content\theme.matter-downselect.css" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AutoCompleteController.cs" />

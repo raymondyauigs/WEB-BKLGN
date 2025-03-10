@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<div class="link-container">
+@*<div class="link-container">
     <menu class="link-menu">
         @foreach(var link in Model.Links)
             {
@@ -12,7 +12,22 @@
             }
     </menu>
 
+</div>*@
+<div class="thumbnail-container">
+    @foreach(var link in Model.Links.Select((l,i)=> new { index = i, src = l}))
+            {
+                <div class="thumbnail">
+                    
+                        <div class="modal-wrapper">
+                            <a href="@link.src.Url"><img src="@Url.Content("~/Content/images/"+ (link.src.LinkName.Contains("Car") ? "yellow_car.jpg": "meeting_room.jpg"))" /></a>
+                            
+                        </div>
+                    </div>
+
+                
+            }
 </div>
+
 
 
 @section Scripts {
@@ -21,6 +36,6 @@
 
 
 @section styles {
-    <link rel="stylesheet" href="@Url.Content("~/Content/home.css")" />
+    <link rel="stylesheet" href="@Url.GetTimedContentUrl("~/Content/home.css")" />
 }
 
