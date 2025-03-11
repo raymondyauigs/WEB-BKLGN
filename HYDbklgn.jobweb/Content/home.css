@@ -108,3 +108,11 @@ menu.link-menu {
     }
 
 
+.span-1 {
+    margin-top: -15px;
+    font-size:larger;
+}
+.span-2 {
+    margin-top: -20px;
+    font-size: smaller;
+}
