@@ -51,7 +51,7 @@ menu.link-menu {
 
 
 .thumbnail-container {
-    background: lightgray;
+    background: khaki;
     width: 100vw;
     height: calc(100vh - 250px);
     display: flex;
@@ -68,8 +68,8 @@ menu.link-menu {
     overflow: hidden;
     transitio: all .2s;
     height: auto;
-    width: 300px;
-    height: 250px;
+    width: 600px;
+    height: 450px;
 }
 
     .thumbnail > label {
@@ -92,7 +92,7 @@ menu.link-menu {
     /*     padding: 1em 0; */
     position: relative;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 700px;
     width: 90%;
     display: flex;
     flex-direction: column;
