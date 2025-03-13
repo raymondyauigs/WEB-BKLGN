@@ -274,6 +274,8 @@
     <Content Include="Content\images\pdf.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\images\resize_car_book.png" />
+    <Content Include="Content\images\resize_room_book.png" />
     <Content Include="Content\images\word.png" />
     <Content Include="Content\images\yellow_car.jpg" />
     <Content Include="Content\theme.matter-downselect.css" />
